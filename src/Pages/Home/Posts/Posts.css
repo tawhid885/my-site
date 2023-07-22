@@ -1,0 +1,19 @@
+.color{
+    color: rgb(139, 195, 74);
+}
+
+.posts_images{
+    width: 100%;
+}
+
+.posts_date_sub{
+    color: rgb(139, 195, 74);
+}
+
+.posts_heading{
+    /* color: rgb(139, 195, 74); */
+    font-size: 35px;
+    font-weight: bolder;
+    line-height:39px;
+    letter-spacing: normal;
+}
