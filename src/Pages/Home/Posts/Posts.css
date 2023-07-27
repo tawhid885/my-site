@@ -110,5 +110,80 @@
 }
 
 
-/* sidebar section  */
+/* post trending section */
+.posts_trending_blogs_heading{
+    text-align: left;
+    margin-top: 80px;
+    border-left: 6px solid rgb(139, 195, 74);
+    padding-left: 8px;
+}
+.posts_trending_container{
+    /* border: 1px solid red; */
+    /* display: flex;
+    flex-direction: column; */
+    padding: 5px;
+}
+
+.posts_blog_image{
+    width: 100%;
+}
+
+.posts_date_trending_container{
+    margin-top: 2px;
+    display: flex;
+}
+
+.posts_trending_clock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posts_trending_date_sub{
+    font-size: small;
+}
+
+.posts_trending_folder{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.posts_trending_heading{
+    margin-top: 6px;
+    margin-bottom: 0px;
+    text-align: left;
+}
+
+.posts_trending_readmore{
+    /* margin-top: 2px; */
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    transition: 0.2s;
+    /* border: 2px solid red; */
+}
+
+.posts_trending_readmore p{
+    /* border: 1px solid red; */
+    margin-top: 7px;
+}
+
+.posts_trending_readmore:hover{
+    color: rgb(139, 195, 74);
+}
+
+.posts_trending_readmore:hover .posts_trending_arrow{
+    color: rgb(139, 195, 74);
+    margin-left: 8px;
+}
+
+.posts_trending_arrow{
+    transition: .2s;
+    margin-left: 1px;
+}
+
+
+
+
 
