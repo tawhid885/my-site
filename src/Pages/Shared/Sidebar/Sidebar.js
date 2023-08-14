@@ -1,10 +1,12 @@
-import { Grid } from '@mui/material';
 import React from 'react';
+import { Grid } from '@mui/material';
 import Facebook from '@mui/icons-material/Facebook';
 import Twitter from '@mui/icons-material/Twitter';
 import Instagram from '@mui/icons-material/Instagram';
+import GitHubIcon from '@mui/icons-material/GitHub';
 import Search from '@mui/icons-material/Search';
 import my_photo from "../../../images/me.jpg";
+import hackerrank from "../../../images/hackerrank.png"
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -32,6 +34,8 @@ const Sidebar = () => {
                                 <Facebook className="posts_facebook"/>
                                 <Twitter className="posts_twitter"/>
                                 <Instagram className="posts_instagram"/>
+                                <GitHubIcon className="posts_github"/>   
+                                <a href="#"><img src={hackerrank} className='posts_hackerrank'/></a>
                             </div>
                         </div>
                     </div>

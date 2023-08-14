@@ -1,0 +1,83 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 26px;
+    z-index: -1;
+}
+
+.footer_first_col_container{
+    text-align: left;
+}
+
+.footer_first_col{
+    display: flex;
+    justify-content:space-around;
+}
+
+.footer_social_media{
+    text-align: right;
+    margin: auto;
+    width: 40%;
+}
+
+.footer_posts_facebook{
+    color:rgb(139, 195, 74);
+    font-size: 2.2rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.footer_posts_twitter{
+    color:rgb(139, 195, 74);
+    font-size: 2.2rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.footer_posts_instagram{
+    color:rgb(139, 195, 74);
+    font-size: 2.2rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.footer_posts_github{
+    color:rgb(139, 195, 74);
+    font-size: 2.2rem;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.footer_hackerrank{
+    height: 30px;
+    border-radius: 50%;
+    color:rgb(139, 195, 74);
+}
+
+.horizontal_line{
+    border: 0.5px dotted white;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+}
+
+ul li{
+    list-style-type: none;
+    margin: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h4{
+    text-align: left;
+}
+
+p{
+    text-align: justify;
+}

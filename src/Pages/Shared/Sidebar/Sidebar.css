@@ -56,23 +56,39 @@
     display: flex;
     justify-content: space-around;
     margin-top: 29px;
-    width: 40%;
+    width: 65%;
 }
 
 .posts_facebook{
     color:rgb(139, 195, 74);
     font-size: 16rem;
+    margin: 2px;
     cursor: pointer;
 }
 
 .posts_twitter{
     color:rgb(139, 195, 74);
     font-size: 16rem;
+    margin: 2px;
     cursor: pointer;
 }
 
 .posts_instagram{
     color:rgb(139, 195, 74);
     font-size: 16rem;
+    margin: 2px;
     cursor: pointer;
+}
+
+.posts_github{
+    color:rgb(139, 195, 74);
+    font-size: 16rem;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.posts_hackerrank{
+    height: 30px;
+    border-radius: 50%;
+    color:rgb(139, 195, 74);
 }
